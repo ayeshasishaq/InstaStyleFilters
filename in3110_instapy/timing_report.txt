@@ -1,0 +1,11 @@
+
+Timing performed using /Users/ayeshaishaq/Documents/IN3110-ayeshasi/assignment3/test/rain.jpg: 600x400
+
+Reference (pure Python) filter time color2gray: 0.0000012716s (calls=3)
+Timing: numpy color2gray: 0.0000006358s (speedup=2.00x)
+Timing: numba color2gray: 0.0000029405s (speedup=0.43x)
+
+Reference (pure Python) filter time color2sepia: 0.0000003974s (calls=3)
+Timing: numpy color2sepia: 0.0000003179s (speedup=1.25x)
+Timing: numba color2sepia: 0.0000003179s (speedup=1.25x)
+TEST: Reference (pure Python) filter time color2sepia: 0.0000003974s (calls=3)
